@@ -1,42 +1,44 @@
 body {
     background-image: url("station.jpg");
     background-size: cover;
-    font-family: 'Segoe UI',;
+    font-family: 'Segoe UI','sans-serif';
     font-weight: bold;
     text-align: center;
 }
-
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-h2 {
     font-size: 50px;
+}
+h2 {
+    font-size: 70px;
     margin-top: 0;
     margin-bottom: 20px;
 }
-
+p{
+    font-size: 30px;
+}
 button {
     border: none;
     padding-top: 12px;
     padding-bottom: 12px;
     color: blanchedalmond;
     font-weight: bold;
-    width: 200px;
+    font-size: 20px;
+    width: 220px;
     margin-bottom: 9px;
     border-radius: 12px;
+    cursor: pointer;
 }
-
 #increment-btn {
     background: blueviolet;
 }
-
 #save-btn {
-    background:rosybrown;
+    background:royalblue;
 }
-
 .container{
     max-width:1320px;
     margin: auto;
+    position: relative;
+    top:50%;
 }
